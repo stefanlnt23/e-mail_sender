@@ -140,7 +140,9 @@ except smtplib.SMTPAuthenticationError:
  create an "app" password wich python will use to log in and send e-mails
 
 
-* If your e-mail does'nt have 2 factors authentification activated [Click here](https://myaccount.google.com/lesssecureapps?pli=1&rapt=AEjHL4Pplz1tcmHd2l4oMIT-uxobFlFefVkQBF27koccYycwlRpFB7_bvrCgE9_rChUKte5pf6JyrCU4y56cDLOwVBBqnuZVag) and swich "Less secure apps acces" to allow  ![alt text](https://github.com/stefanlnt23/e-mail_sender/blob/main/img/123.png "Text2")
+* If your e-mail does'nt have 2 factors authentification activated [Click here](https://myaccount.google.com/lesssecureapps?pli=1&rapt=AEjHL4Pplz1tcmHd2l4oMIT-uxobFlFefVkQBF27koccYycwlRpFB7_bvrCgE9_rChUKte5pf6JyrCU4y56cDLOwVBBqnuZVag) and swich "Less secure apps acces" to allow
+
+* ![alt text](https://github.com/stefanlnt23/e-mail_sender/blob/main/img/123.png "Text2")
 
 
 
