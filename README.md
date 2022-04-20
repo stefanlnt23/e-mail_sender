@@ -23,6 +23,7 @@ pip install time
 
 ## Explication:
 ### Step 1
+#
 #### Import modules 
 ```python
 
@@ -36,12 +37,14 @@ import progressbar
 import time
 ```
 ### Step 2
+#
 #### Create variables with your e-mail credentials
 ```python
 EMAIL_ADDRESS = 'YOUR_EMAIL_ADDRESS'
 EMAIL_PASSWORD = 'YOUR_EMAIL_PASSWORD'
 ```
 ### Step 3
+#
 ### Variables for while loop
 ```python
 k = 0
@@ -51,16 +54,19 @@ try:
     o = int(input('NR E-MAILS: '))
 ```
 ### Step 4
+#
 ### Opening JSON file
 ```python
     file = open('my_dictionary.json')
 ```
 ### Step 5
+#
 ### Defining dictionary
 ```python
     data = json.load(file)
  ```
- ### Step 6
+### Step 6
+ #
 ### While loop
 ```python
     send_to = input('DESTINATARY: ')
@@ -69,6 +75,7 @@ try:
         remains = o-k
 ```
 ### Step 7
+#
 ### Iterating through the json
 ```python
         for i in data['receipe']:
@@ -78,12 +85,14 @@ try:
             x = receipe, ingredients = random.choice(list(i.items())) 
 ```
 ### Step 8
+#
 ### Defining index values
 ```python
             random_subject = x[0]
             random_body = x[1]
 ```
 ### Step 9
+#
 ### Send email
 ```python
         try:
@@ -98,6 +107,7 @@ try:
                 smtp.sendmail(EMAIL_ADDRESS,send_to,msg)
 ```
 ### Step 10
+#
 ### Progress bar animation
 ```python
             with progressbar.ProgressBar(max_value=10) as bar:
@@ -106,11 +116,13 @@ try:
                     bar.update(i)
 ```
 ### Step 11
+#
 ### Confirmation
 ```python
             print ('Email number: ',k,'has been sent ',remains,'emails left')
 ```
 ### Step 12
+#
 ### IF email not found break the loop
 ```python
         except smtplib.SMTPRecipientsRefused:
@@ -118,12 +130,14 @@ try:
             break
 ```
 ### Step 13
+#
 ### IF nr of emails not int throw error
 ```python
 except ValueError:
     print('ERROR ONLY NUMBERS ALLOWED!')
 ```
 ### Step 14
+#
 ### IF E-mail or Password is incorrect throw error
 ```python
 except smtplib.SMTPAuthenticationError:
