@@ -1,7 +1,11 @@
-# Recipe sender
+# E-mail food recipe sender
+![alt text](https://github.com/stefanlnt23/e-mail_sender/blob/main/img/x3.png "Tex2s")
 
-### Send E-mails with food recipes to your friends you can edit the "my_dictionary.json" file with what recipes you want
-![alt text](https://github.com/stefanlnt23/e-mail_sender/blob/main/img/x3.png "Text2")
+### Troll your friends!
+### With this bot you can send up to 2000 e-mails daily automaticaly just with 1 click, you can edit the "my_dictionary.json" file with what content you want just keep the same order  you want like this:
+
+![alt text](https://github.com/stefanlnt23/e-mail_sender/blob/main/img/x5.png "Text5")
+
 
 ## Modules required:
 
