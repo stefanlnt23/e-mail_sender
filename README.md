@@ -6,6 +6,7 @@
 
 ![alt text](https://github.com/stefanlnt23/e-mail_sender/blob/main/img/x5.png "Text5")
 
+## The bot will randomly select n times from your "my_dictionary.json" file a subject with its body
 
 ## Modules required:
 
