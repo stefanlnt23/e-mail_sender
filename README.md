@@ -1,7 +1,7 @@
 # Recipe sender
 
 ##### Send E-mails with food recipes to your friends you can edit the "my_dictionary.json" file with what recipes you want
-![alt text](https://github.com/stefanlnt23/e-mail_sender/blob/main/img/x3.png "Text2")
+![alt text](https://github.com/stefanlnt23/e-mail_sender/blob/main/img/x3.jpg "Text2")
 
 ## Modules required:
 
