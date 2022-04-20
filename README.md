@@ -1,13 +1,6 @@
 # Recipe sender
 
 ##### Send E-mails with food recipes to your friends you can edit the "my_dictionary.json" file with what recipes you want
-## In order for this script to work you need to insert e-mail credentials
-* If your e-mail has 2 factors authentification activated [Click here](https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords&osid=1&rart=ANgoxccqxZEcQ-iajblFG-Oigddioy7bHWE2jf7kI1K252-AmIOGCk3cDSrzFfYgYT7Zjgg11sykG_yVEwnWGHKT9TxMUYjQBQ&service=accountsettings&flowName=GlifWebSignIn&flowEntry=ServiceLogin) , and follow these steps: ![alt text](https://github.com/stefanlnt23/e-mail_sender/blob/main/img/x1.png "img x1") ![alt text](https://github.com/stefanlnt23/e-mail_sender/blob/main/img/x2.png "img x2")
-
- create an "app" password wich python will use to log in and send e-mails
-
-
-* If your e-mail does'nt have 2 factors authentification activated [Click here](https://myaccount.google.com/lesssecureapps?pli=1&rapt=AEjHL4Pplz1tcmHd2l4oMIT-uxobFlFefVkQBF27koccYycwlRpFB7_bvrCgE9_rChUKte5pf6JyrCU4y56cDLOwVBBqnuZVag) and swich "Less secure apps acces" to allow  ![alt text](https://github.com/stefanlnt23/e-mail_sender/blob/main/img/123.png "Text2")
 
 ## Modules required:
 
@@ -130,6 +123,16 @@ except ValueError:
 except smtplib.SMTPAuthenticationError:
     print('ERROR E-MAIL OR PASSWORD IS INCORRECT!')
 ```
+# In order for this script to work you need to insert e-mail credentials
+##* If your e-mail has 2 factors authentification activated [Click here](https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords&osid=1&rart=ANgoxccqxZEcQ-iajblFG-Oigddioy7bHWE2jf7kI1K252-AmIOGCk3cDSrzFfYgYT7Zjgg11sykG_yVEwnWGHKT9TxMUYjQBQ&service=accountsettings&flowName=GlifWebSignIn&flowEntry=ServiceLogin) , and follow these steps: ![alt text](https://github.com/stefanlnt23/e-mail_sender/blob/main/img/x1.png "img x1") ![alt text](https://github.com/stefanlnt23/e-mail_sender/blob/main/img/x2.png "img x2")
+
+ create an "app" password wich python will use to log in and send e-mails
+
+
+##* If your e-mail does'nt have 2 factors authentification activated [Click here](https://myaccount.google.com/lesssecureapps?pli=1&rapt=AEjHL4Pplz1tcmHd2l4oMIT-uxobFlFefVkQBF27koccYycwlRpFB7_bvrCgE9_rChUKte5pf6JyrCU4y56cDLOwVBBqnuZVag) and swich "Less secure apps acces" to allow  ![alt text](https://github.com/stefanlnt23/e-mail_sender/blob/main/img/123.png "Text2")
+
+
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
