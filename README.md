@@ -125,7 +125,9 @@ except smtplib.SMTPAuthenticationError:
     print('ERROR E-MAIL OR PASSWORD IS INCORRECT!')
 ```
 # In order for this script to work you need to insert e-mail credentials
-##* If your e-mail has 2 factors authentification activated [Click here](https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords&osid=1&rart=ANgoxccqxZEcQ-iajblFG-Oigddioy7bHWE2jf7kI1K252-AmIOGCk3cDSrzFfYgYT7Zjgg11sykG_yVEwnWGHKT9TxMUYjQBQ&service=accountsettings&flowName=GlifWebSignIn&flowEntry=ServiceLogin) , and follow these steps: ![alt text](https://github.com/stefanlnt23/e-mail_sender/blob/main/img/x1.png "img x1") ![alt text](https://github.com/stefanlnt23/e-mail_sender/blob/main/img/x2.png "img x2")
+##* If your e-mail has 2 factors authentification activated [Click here](https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords&osid=1&rart=ANgoxccqxZEcQ-iajblFG-Oigddioy7bHWE2jf7kI1K252-AmIOGCk3cDSrzFfYgYT7Zjgg11sykG_yVEwnWGHKT9TxMUYjQBQ&service=accountsettings&flowName=GlifWebSignIn&flowEntry=ServiceLogin) , and follow these steps:
+![alt text](https://github.com/stefanlnt23/e-mail_sender/blob/main/img/x1.png "img x1") 
+![alt text](https://github.com/stefanlnt23/e-mail_sender/blob/main/img/x2.png "img x2")
 
  create an "app" password wich python will use to log in and send e-mails
 
