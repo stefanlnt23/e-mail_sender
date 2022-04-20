@@ -1,4 +1,4 @@
-# E-mail food recipe sender
+# ∞ E-mail sender
 ![alt text](https://github.com/stefanlnt23/e-mail_sender/blob/main/img/x3.png "Tex2s")
 
 ### Troll your friends!
