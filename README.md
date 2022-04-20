@@ -2,12 +2,13 @@
 ![alt text](https://github.com/stefanlnt23/e-mail_sender/blob/main/img/x3.png "Tex2s")
 
 ### Troll your friends!
+#
 ### With this bot you can send up to 2000 e-mails daily automaticaly just with 1 click, you can edit the "my_dictionary.json" file with what content you want, just keep the same order like this:
 
 ![alt text](https://github.com/stefanlnt23/e-mail_sender/blob/main/img/x5.png "Text5")
 
 ## The bot will randomly select n times from your "my_dictionary.json" file a subject with its body
-
+#
 ## Modules required:
 
 ```python
